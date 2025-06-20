@@ -11,6 +11,11 @@ function App() {
       <motion.h1 initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
         Undangan Pernikahan
       </motion.h1>
+<audio controls autoPlay loop style={{ width: "100%" }}>
+  <source src="/uhayyikum.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
+</audio>
+          
       <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
         Yth. {namaTamu}
       </motion.h2>
